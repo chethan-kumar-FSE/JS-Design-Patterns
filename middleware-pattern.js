@@ -15,6 +15,8 @@ class Message {
   }
 
   send() {
+    new Logger(this.message);
+    new UserTrack();
     console.log("message sent");
   }
 }
