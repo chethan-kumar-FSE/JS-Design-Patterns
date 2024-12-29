@@ -1,3 +1,6 @@
+/* The Singleton Pattern is a design pattern that ensures a class has only one instance and provides a global point of access to that instance.
+It is often used for things like configuration settings, logging, or database connections, where you want to ensure that multiple parts of your application use the same instance. */
+
 class Datebase {
   constructor() {
     return {

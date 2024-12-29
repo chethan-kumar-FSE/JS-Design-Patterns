@@ -1,3 +1,6 @@
+/* The Observer Pattern is a design pattern where an object (called the subject) maintains a list of dependents (called observers) and notifies them automatically 
+whenever its state changes. This is particularly useful for scenarios where you want multiple parts of your application to react to changes in one object. */
+
 class Channel {
   constructor() {
     this.observers = [];
